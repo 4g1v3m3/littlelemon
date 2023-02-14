@@ -20,11 +20,15 @@ struct Onboarding: View {
     var body: some View {
         NavigationView() {
             VStack(){
+                LogoView()
+                Spacer()
                 NavigationLink(destination: Home(), isActive: $isLoggedIn)
                 {
                           EmptyView()
                       }
-                Text("Registration form:").font(.title2).padding()
+                Text("Registration form:")
+                    .font(.custom(.headRegular, size: 40))
+                    .padding()
                 TextField("First Name", text: $firstName)
                     .disableAutocorrection(true)
                     .textFieldStyle(.roundedBorder)
@@ -38,6 +42,7 @@ struct Onboarding: View {
                     .textInputAutocapitalization(.never)
                     .textFieldStyle(.roundedBorder)
                     .padding(5)
+                Spacer()
                 Button("Register")
                 {
                     if !firstName.isEmpty && !lastName.isEmpty && eMail.contains("@") && eMail.contains("."){
@@ -55,9 +60,12 @@ struct Onboarding: View {
                         showingAlert = true
                     }
                 }
-                .controlSize(.large)
-                .padding()
-                .buttonStyle(.borderedProminent)
+                .frame(maxWidth: .infinity)
+                .font(.custom(.bodyMedium, size: 32))
+                .padding(10)
+                .foregroundColor( Color.primary)
+                .background(Color.secondaryColor)
+                .clipShape(RoundedRectangle(cornerRadius: 16))
                 .alert(isPresented: $showingAlert) {
                     Alert(title: Text("Error"), message: Text("Wrong First Name, Last Name or E-Mail"), dismissButton: .default(Text("OK"))) }
             }

@@ -14,26 +14,30 @@ struct UserProfile: View {
     @Environment(\.presentationMode) var presentation
     var body: some View {
         VStack(){
+            LogoView()
             Text("Personal information")
-                .font(.title)
+                .font(.custom(.headMedium, size: 40))
             Image("profile-image-placeholder")
                 .resizable()
                 .frame(maxWidth: 200, maxHeight: 200)
                 .padding()
-            Text(firstName)
-            Text(lastName)
-            Text(eMail)
+            Text(firstName).padding(0).font(.custom(.bodyRegular, size: 20))
+            Text(lastName).padding(0).font(.custom(.bodyRegular, size: 20))
+            Text(eMail).padding(0).font(.custom(.bodyRegular, size: 20))
+            Spacer()
             Button("Logout"){
                 UserDefaults.standard.set(false, forKey: kIsLoggedIn)
                 print(Onboarding().isLoggedIn)
             self.presentation.wrappedValue.dismiss()
                 
             }
-            .controlSize(.large)
-            .padding()
-            .buttonStyle(.borderedProminent)
-            Spacer()
-        }
+            .frame(maxWidth: .infinity)
+            .font(.custom(.bodyMedium, size: 32))
+            .padding(10)
+            .foregroundColor( Color.primary)
+            .background(Color.secondaryColor)
+            .clipShape(RoundedRectangle(cornerRadius: 16))
+        } .padding()
     }
 }
 

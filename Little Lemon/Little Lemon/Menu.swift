@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Menu: View {
     @Environment(\.managedObjectContext) private var viewContext
-    @State private var searchText: String = ""
+    @State var searchText: String = ""
     
     @FetchRequest(
         sortDescriptors: [],
@@ -41,16 +41,21 @@ struct Menu: View {
     }
     
     var body: some View {
-        VStack(){
-            Text("Little Lemon Restaurant")
-                .font(.title)
-            Text("Chicago")
-                .font(.title2)
-            Text("This is our menu. Please be free to select anything!")
-                .font(.title3)
-                .padding(.top)
+        VStack(spacing: 0){
+            LogoView()
+                .padding(.bottom)
+            HeroSection()
+            VStack {
+                TextField("Seach here...", text: $searchText)
+                    .disableAutocorrection(true)
+                    .textFieldStyle(.roundedBorder)
+                    .background(Color.primaryColor)
+                    .padding()
+            }
+                .background(Color.primaryColor)
+            MenuBreakdown()
+                .padding()
                 List{
-                    TextField("Seach here...", text: $searchText)
                     FetchedObjects(
                         predicate: buildPredicate(),
                         sortDescriptors: buildSortDescriptors()
@@ -76,6 +81,7 @@ struct Menu: View {
                 }
             
         }
+
     }
     func buildSortDescriptors() -> [NSSortDescriptor] {
         return [NSSortDescriptor(key: "title",

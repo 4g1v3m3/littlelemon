@@ -12,7 +12,11 @@
 		086ABAFB29923B9900A5CC42 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086ABAFA29923B9900A5CC42 /* MenuList.swift */; };
 		086ABAFD29923BAA00A5CC42 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086ABAFC29923BAA00A5CC42 /* MenuItem.swift */; };
 		086ABB0029926B9C00A5CC42 /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 086ABAFE29926B9C00A5CC42 /* ExampleDatabase.xcdatamodeld */; };
+		08ACA8FD299BC31E0007D1C7 /* Fonts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ACA8FC299BC31E0007D1C7 /* Fonts+Extensions.swift */; };
 		08B25740299658AB0091518E /* DishInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B2573F299658AB0091518E /* DishInfo.swift */; };
+		08B25747299B75540091518E /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B25746299B75540091518E /* LogoView.swift */; };
+		08B25749299B76A00091518E /* HeroSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B25748299B76A00091518E /* HeroSection.swift */; };
+		08B2574B299B7C7E0091518E /* MenuBreakdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B2574A299B7C7E0091518E /* MenuBreakdown.swift */; };
 		08C2D791298D059E0078B8C9 /* Little_LemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C2D790298D059E0078B8C9 /* Little_LemonApp.swift */; };
 		08C2D795298D059F0078B8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C2D794298D059F0078B8C9 /* Assets.xcassets */; };
 		08C2D798298D059F0078B8C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C2D797298D059F0078B8C9 /* Preview Assets.xcassets */; };
@@ -20,6 +24,13 @@
 		08C2D7A1298D151C0078B8C9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C2D7A0298D151C0078B8C9 /* Home.swift */; };
 		08C2D7A5298D15AB0078B8C9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C2D7A4298D15AB0078B8C9 /* Menu.swift */; };
 		08C2D7A7298D1EC20078B8C9 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C2D7A6298D1EC20078B8C9 /* UserProfile.swift */; };
+		08EE6E8F299BD585008C1639 /* Karla-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08EE6E89299BD584008C1639 /* Karla-Medium.ttf */; };
+		08EE6E90299BD585008C1639 /* MarkaziText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08EE6E8A299BD584008C1639 /* MarkaziText-Regular.ttf */; };
+		08EE6E91299BD585008C1639 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08EE6E8B299BD584008C1639 /* MarkaziText-Medium.ttf */; };
+		08EE6E92299BD585008C1639 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08EE6E8C299BD584008C1639 /* Karla-Bold.ttf */; };
+		08EE6E93299BD585008C1639 /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08EE6E8D299BD584008C1639 /* Karla-ExtraBold.ttf */; };
+		08EE6E94299BD585008C1639 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08EE6E8E299BD585008C1639 /* Karla-Regular.ttf */; };
+		08EE6E97299BD5F8008C1639 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE6E96299BD5F8008C1639 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +39,11 @@
 		086ABAFA29923B9900A5CC42 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
 		086ABAFC29923BAA00A5CC42 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		086ABAFF29926B9C00A5CC42 /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
+		08ACA8FC299BC31E0007D1C7 /* Fonts+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+Extensions.swift"; sourceTree = "<group>"; };
 		08B2573F299658AB0091518E /* DishInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishInfo.swift; sourceTree = "<group>"; };
+		08B25746299B75540091518E /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		08B25748299B76A00091518E /* HeroSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSection.swift; sourceTree = "<group>"; };
+		08B2574A299B7C7E0091518E /* MenuBreakdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBreakdown.swift; sourceTree = "<group>"; };
 		08C2D78D298D059E0078B8C9 /* Little Lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C2D790298D059E0078B8C9 /* Little_LemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_LemonApp.swift; sourceTree = "<group>"; };
 		08C2D794298D059F0078B8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +52,13 @@
 		08C2D7A0298D151C0078B8C9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		08C2D7A4298D15AB0078B8C9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		08C2D7A6298D1EC20078B8C9 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		08EE6E89299BD584008C1639 /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		08EE6E8A299BD584008C1639 /* MarkaziText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Regular.ttf"; sourceTree = "<group>"; };
+		08EE6E8B299BD584008C1639 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		08EE6E8C299BD584008C1639 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		08EE6E8D299BD584008C1639 /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
+		08EE6E8E299BD585008C1639 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		08EE6E96299BD5F8008C1639 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +79,7 @@
 				08C2D78E298D059E0078B8C9 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		08C2D78E298D059E0078B8C9 /* Products */ = {
 			isa = PBXGroup;
@@ -70,16 +93,21 @@
 			isa = PBXGroup;
 			children = (
 				08C2D790298D059E0078B8C9 /* Little_LemonApp.swift */,
-				08C2D79E298D06A40078B8C9 /* Onboarding.swift */,
-				08C2D7A6298D1EC20078B8C9 /* UserProfile.swift */,
-				08C2D7A0298D151C0078B8C9 /* Home.swift */,
 				086ABAFE29926B9C00A5CC42 /* ExampleDatabase.xcdatamodeld */,
 				086ABAF629923B1700A5CC42 /* FetchedObjects.swift */,
 				086ABAF729923B1800A5CC42 /* Persistence.swift */,
+				08EE6E88299BD56E008C1639 /* Fonts */,
+				08EE6E95299BD5E4008C1639 /* Extensions */,
+				08C2D7A0298D151C0078B8C9 /* Home.swift */,
+				08B25746299B75540091518E /* LogoView.swift */,
+				08B25748299B76A00091518E /* HeroSection.swift */,
 				08C2D7A4298D15AB0078B8C9 /* Menu.swift */,
+				08B2574A299B7C7E0091518E /* MenuBreakdown.swift */,
 				086ABAFA29923B9900A5CC42 /* MenuList.swift */,
 				086ABAFC29923BAA00A5CC42 /* MenuItem.swift */,
+				08C2D79E298D06A40078B8C9 /* Onboarding.swift */,
 				08B2573F299658AB0091518E /* DishInfo.swift */,
+				08C2D7A6298D1EC20078B8C9 /* UserProfile.swift */,
 				08C2D794298D059F0078B8C9 /* Assets.xcassets */,
 				08C2D796298D059F0078B8C9 /* Preview Content */,
 			);
@@ -92,6 +120,28 @@
 				08C2D797298D059F0078B8C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08EE6E88299BD56E008C1639 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				08EE6E8C299BD584008C1639 /* Karla-Bold.ttf */,
+				08EE6E8D299BD584008C1639 /* Karla-ExtraBold.ttf */,
+				08EE6E89299BD584008C1639 /* Karla-Medium.ttf */,
+				08EE6E8E299BD585008C1639 /* Karla-Regular.ttf */,
+				08EE6E8B299BD584008C1639 /* MarkaziText-Medium.ttf */,
+				08EE6E8A299BD584008C1639 /* MarkaziText-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		08EE6E95299BD5E4008C1639 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				08ACA8FC299BC31E0007D1C7 /* Fonts+Extensions.swift */,
+				08EE6E96299BD5F8008C1639 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +203,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C2D798298D059F0078B8C9 /* Preview Assets.xcassets in Resources */,
+				08EE6E91299BD585008C1639 /* MarkaziText-Medium.ttf in Resources */,
+				08EE6E8F299BD585008C1639 /* Karla-Medium.ttf in Resources */,
+				08EE6E92299BD585008C1639 /* Karla-Bold.ttf in Resources */,
+				08EE6E90299BD585008C1639 /* MarkaziText-Regular.ttf in Resources */,
 				08C2D795298D059F0078B8C9 /* Assets.xcassets in Resources */,
+				08EE6E93299BD585008C1639 /* Karla-ExtraBold.ttf in Resources */,
+				08EE6E94299BD585008C1639 /* Karla-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C2D79F298D06A40078B8C9 /* Onboarding.swift in Sources */,
+				08B2574B299B7C7E0091518E /* MenuBreakdown.swift in Sources */,
+				08ACA8FD299BC31E0007D1C7 /* Fonts+Extensions.swift in Sources */,
 				08C2D7A1298D151C0078B8C9 /* Home.swift in Sources */,
 				086ABAFB29923B9900A5CC42 /* MenuList.swift in Sources */,
 				086ABAF829923B1800A5CC42 /* FetchedObjects.swift in Sources */,
@@ -172,8 +230,11 @@
 				086ABB0029926B9C00A5CC42 /* ExampleDatabase.xcdatamodeld in Sources */,
 				08B25740299658AB0091518E /* DishInfo.swift in Sources */,
 				08C2D7A7298D1EC20078B8C9 /* UserProfile.swift in Sources */,
+				08B25749299B76A00091518E /* HeroSection.swift in Sources */,
+				08EE6E97299BD5F8008C1639 /* Color+Extensions.swift in Sources */,
 				086ABAFD29923BAA00A5CC42 /* MenuItem.swift in Sources */,
 				08C2D7A5298D15AB0078B8C9 /* Menu.swift in Sources */,
+				08B25747299B75540091518E /* LogoView.swift in Sources */,
 				08C2D791298D059E0078B8C9 /* Little_LemonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +367,7 @@
 				DEVELOPMENT_TEAM = DC795NMRKD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Lemon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -335,6 +397,7 @@
 				DEVELOPMENT_TEAM = DC795NMRKD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Lemon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
